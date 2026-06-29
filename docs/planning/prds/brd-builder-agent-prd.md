@@ -3,7 +3,7 @@ prd_id: "PRD-2026-Q2-BRD-BUILDER"
 title: "BRD Builder Agent Product Requirements"
 description: "Product Requirements Document for the BRD Builder agent, defining product goals, functional requirements, and acceptance criteria for the guided Business Requirements Document authoring workflow in the project-planning collection."
 author: "HVE Core Maintainers"
-ms.date: "2026-06-28"
+ms.date: "2026-06-29"
 ms.topic: "reference"
 status: "approved"
 version: "1.0.0"
@@ -337,7 +337,5 @@ This Product Requirements Document was prepared with AI assistance and reflects 
 * Attribution: Microsoft HVE-Core Team.
 
 ---
-
-> Brought to you by microsoft/hve-core
 
 🤖 Crafted with precision by ✨Copilot following brilliant human instruction, then carefully refined by our team of discerning human reviewers.
