@@ -1,11 +1,16 @@
-# Phase Gate Dashboard Summary Template
+---
+title: Phase Gate Dashboard Summary Template
+description: Gate-decision input consolidating each dimension's level, trend, evidence, and recommendation.
+---
 
-Use this template at phase gates to consolidate the dashboard into a gate decision input. Summarize the trend across the last three cycles and give a per-dimension recommendation.
+## Phase Gate Dashboard Summary Template
+
+Use this template at phase gates to consolidate the dashboard into a gate decision input. Summarize the recent trend using the dimension's declared refresh cadence and give a per-dimension recommendation.
 
 Decision: <the gate decision under consideration>
 Confidence legend: red is Low, amber is Medium, green is High.
 
-| Dimension               | Level                | Trend (last 3 cycles) | Key evidence | Gate recommendation             |
+| Dimension               | Level                | Trend (recent cycles) | Key evidence | Gate recommendation             |
 |-------------------------|----------------------|-----------------------|--------------|---------------------------------|
 | Problem Confidence      | Low / Medium / High  | up / down / flat      | Summary      | Proceed / Hold / Conditional    |
 | Data Confidence         | Low / Medium / High  |                       |              |                                 |

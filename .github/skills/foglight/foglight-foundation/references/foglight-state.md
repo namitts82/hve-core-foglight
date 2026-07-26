@@ -1,4 +1,9 @@
-# Foglight Session State
+---
+title: Foglight Session State
+description: Foglight session state schema, file conventions, update rules, and resume protocol.
+---
+
+## Foglight Session State
 
 Foglight persists lightweight session state so a coaching session can pause and resume without losing the pending decision, the evidence gathered, or the artifacts produced. State is a working record, not a source of truth: durable artifacts live as repo-resident markdown, while state and generation traces live under the tracking directory.
 

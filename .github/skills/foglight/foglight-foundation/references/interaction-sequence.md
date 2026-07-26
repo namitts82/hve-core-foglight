@@ -1,4 +1,9 @@
-# Foglight Interaction Sequence
+---
+title: Foglight Interaction Sequence
+description: The six-stage Foglight coaching sequence with loop-back, defer, dispatch, and handoff rules.
+---
+
+## Foglight Interaction Sequence
 
 A typical Foglight session follows six stages. The sequence is guidance, not a rigid script. The Orchestrator can loop back to earlier stages when new context surfaces, skip stages that prior context already covers, or hand off to another HVE Core agent when that is the better next action. This mirrors the DT Coach pattern, which allows non-linear navigation when evidence is already in hand.
 
@@ -33,4 +38,4 @@ Declare handoffs through the agent's `handoffs` frontmatter and offer them when 
 * To `Task Researcher` when repo evidence is incomplete and discovery is needed.
 * To `Task Planner` when Foglight identifies follow-on work that belongs in a plan or backlog.
 * To `RAI Planner` when model-behavior, evaluation-coverage, or operator-workflow concerns need a responsible-AI assessment.
-* To `Code Reviewer`, `Security Planner`, or `SSSC Planner` when readiness, QA, or supply-chain evidence should flow into those reviews.
+* To `Task Reviewer`, `Security Planner`, or `SSSC Planner` when readiness, QA, or supply-chain evidence should flow into those reviews.

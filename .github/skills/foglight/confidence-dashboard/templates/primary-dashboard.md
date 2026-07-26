@@ -1,4 +1,9 @@
-# Primary Dashboard Template
+---
+title: Primary Dashboard Template
+description: Core per-dimension Confidence Dashboard tracking table, updated at every learning cycle.
+---
+
+## Primary Dashboard Template
 
 The core tracking artifact. One row per dimension, updated at every learning cycle. Replace the level cell with one of Low (red), Medium (amber), or High (green), and populate every column from project evidence.
 

@@ -52,7 +52,7 @@ Confidence legend for stakeholder-facing renderings: red is Low, amber is Medium
 * Initialize the dashboard at kickoff and update it at every learning-cycle exit.
 * Confidence movement is the primary progress signal; activity without confidence movement is not progress.
 * Every update states why confidence changed and what decision the change enables or blocks.
-* A stalled dimension, meaning no movement across two consecutive learning cycles, triggers a mandatory review of the approach for that dimension.
+* A dimension that shows no movement beyond its declared refresh trigger or expected learning cadence is stalled; treat the stall as a signal and review the approach for that dimension.
 * Include the confidence legend in every stakeholder-facing artifact that references the dashboard.
 * The dashboard summarizes detailed technical reports into a decision-oriented view; it does not replace them.
 * Never produce a composite score across the six dimensions. A gate recommendation reasons over the dimensions individually.

@@ -1,4 +1,9 @@
-# Status Change View Template
+---
+title: Status Change View Template
+description: Movement-focused, stakeholder-facing Confidence Dashboard update.
+---
+
+## Status Change View Template
 
 Use this template for stakeholder-facing status updates. The focus is movement and its implications, not a static snapshot. Mark change as up, down, or unchanged.
 
