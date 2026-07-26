@@ -4,12 +4,16 @@
   "version": "3.3.101",
   "agents": [
     "agents/experimental/",
-    "agents/experimental/subagents/"
+    "agents/experimental/subagents/",
+    "agents/foglight/",
+    "agents/foglight/subagents/"
   ],
   "commands": [
-    "commands/experimental/"
+    "commands/experimental/",
+    "commands/foglight/"
   ],
   "skills": [
-    "skills/experimental/"
+    "skills/experimental/",
+    "skills/foglight/"
   ]
 }

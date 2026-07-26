@@ -1,6 +1,6 @@
 {
   "name": "hve-core-all",
-  "description": "Full bundle of all stable HVE Core agents, prompts, instructions, and skills",
+  "description": "Full bundle of opinionated, rapidly evolving HVE Core agentic SDLC patterns and tools",
   "version": "3.3.101",
   "agents": [
     "agents/accessibility/",
@@ -12,6 +12,8 @@
     "agents/design-thinking/",
     "agents/experimental/",
     "agents/experimental/subagents/",
+    "agents/foglight/",
+    "agents/foglight/subagents/",
     "agents/github/",
     "agents/hve-core/",
     "agents/hve-core/subagents/",
@@ -30,6 +32,7 @@
     "commands/data-science/",
     "commands/design-thinking/",
     "commands/experimental/",
+    "commands/foglight/",
     "commands/github/",
     "commands/hve-core/",
     "commands/jira/",
@@ -41,6 +44,7 @@
     "skills/coding-standards/",
     "skills/design-thinking/",
     "skills/experimental/",
+    "skills/foglight/",
     "skills/github/",
     "skills/gitlab/",
     "skills/hve-core/",
