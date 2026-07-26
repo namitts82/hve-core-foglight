@@ -13,12 +13,24 @@ items:
     kind: agent
   - path: .github/agents/experimental/subagents/pptx-subagent.agent.md
     kind: agent
+  - path: .github/agents/foglight/foglight-orchestrator.agent.md
+    kind: agent
+    maturity: experimental
+  - path: .github/agents/foglight/subagents/confidence-dashboard.agent.md
+    kind: agent
+    maturity: experimental
   # Skills
   - path: .github/skills/experimental/caveman
     kind: skill
     maturity: experimental
   - path: .github/skills/experimental/customer-card-render
     kind: skill
+  - path: .github/skills/foglight/foglight-foundation
+    kind: skill
+    maturity: experimental
+  - path: .github/skills/foglight/confidence-dashboard
+    kind: skill
+    maturity: experimental
   - path: .github/skills/experimental/powerpoint
     kind: skill
   - path: .github/skills/experimental/tts-voiceover
@@ -32,6 +44,9 @@ items:
     kind: skill
     maturity: experimental
   # Prompts
+  - path: .github/prompts/foglight/foglight.prompt.md
+    kind: prompt
+    maturity: experimental
   - path: .github/prompts/experimental/cspell-config.prompt.md
     kind: prompt
     maturity: experimental

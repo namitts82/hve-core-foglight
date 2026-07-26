@@ -15,18 +15,21 @@ Experimental and preview artifacts not yet promoted to stable collections. Items
 
 ### Chat Agents
 
-| Name                    | Description                                                                                                            |
-|-------------------------|------------------------------------------------------------------------------------------------------------------------|
-| **experiment-designer** | Coach for designing a Minimum Viable Experiment (MVE) with hypothesis formation, vetting, and experiment planning      |
-| **pptx**                | Creates, updates, and manages PowerPoint slide decks using YAML-driven content with python-pptx                        |
-| **pptx-subagent**       | Executes PowerPoint skill operations including content extraction, YAML creation, deck building, and visual validation |
+| Name                      | Description                                                                                                                                                      |
+|---------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **confidence-dashboard**  | Generates or updates a decision-linked Confidence Dashboard from project context. Dispatched by the Foglight Orchestrator for a go/hold decision.                |
+| **experiment-designer**   | Coach for designing a Minimum Viable Experiment (MVE) with hypothesis formation, vetting, and experiment planning                                                |
+| **foglight-orchestrator** | Coaches TPMs and Dev/DS leads on probabilistic delivery of intelligent systems. Use for confidence, evidence-maturity, readiness, and go/hold decision coaching. |
+| **pptx**                  | Creates, updates, and manages PowerPoint slide decks using YAML-driven content with python-pptx                                                                  |
+| **pptx-subagent**         | Executes PowerPoint skill operations including content extraction, YAML creation, deck building, and visual validation                                           |
 
 ### Prompts
 
-| Name               | Description                                                                                          |
-|--------------------|------------------------------------------------------------------------------------------------------|
-| **cspell-config**  | Create or update the project cspell configuration with project words and ignores                     |
-| **graph-research** | Research a codebase using an existing graphify knowledge graph, with audit-tagged evidence reporting |
+| Name               | Description                                                                                                                              |
+|--------------------|------------------------------------------------------------------------------------------------------------------------------------------|
+| **cspell-config**  | Create or update the project cspell configuration with project words and ignores                                                         |
+| **foglight**       | Start or resume a Foglight coaching session on probabilistic delivery of an intelligent system. Use to launch the Foglight Orchestrator. |
+| **graph-research** | Research a codebase using an existing graphify knowledge graph, with audit-tagged evidence reporting                                     |
 
 ### Instructions
 
@@ -49,7 +52,9 @@ Experimental and preview artifacts not yet promoted to stable collections. Items
 | Name                     | Description                                                                                                                                                                           |
 |--------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **caveman**              | Ultra-compressed response style that reduces output token count while preserving technical accuracy, with intensity levels and auto-clarity safety rules                              |
+| **confidence-dashboard** | Confidence Dashboard dimensions, levels, usage rules, and templates. Use when a single status signal hides real uncertainty behind a named go/hold decision.                          |
 | **customer-card-render** | Generate customer-card PowerPoint content YAML from Design Thinking canonical artifacts and build using the shared PowerPoint skill pipeline                                          |
+| **foglight-foundation**  | Foglight coaching foundation: identity, six-stage sequence, session state, capability registry, and no-composite-score guardrail. Use when coaching intelligent-system delivery.      |
 | **mural**                | Mural workspace, room, mural, and widget workflows via the Mural REST API exposed through a Python CLI. Use when you need to read or write Mural content or automate widget creation. |
 | **powerpoint**           | PowerPoint slide deck generation and management using python-pptx with YAML-driven content and styling                                                                                |
 | **tts-voiceover**        | Text-to-speech voice-over generation from YAML speaker notes using Azure Speech SDK with SSML pronunciation control                                                                   |

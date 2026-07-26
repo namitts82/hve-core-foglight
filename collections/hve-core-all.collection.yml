@@ -1,6 +1,6 @@
 id: hve-core-all
 name: HVE Core All
-description: Full bundle of all stable HVE Core agents, prompts, instructions, and skills
+description: Full bundle of opinionated, rapidly evolving HVE Core agentic SDLC patterns and tools
 tags:
 - hve
 - complete
@@ -71,6 +71,12 @@ items:
   kind: agent
 - path: .github/agents/experimental/subagents/pptx-subagent.agent.md
   kind: agent
+- path: .github/agents/foglight/foglight-orchestrator.agent.md
+  kind: agent
+  maturity: experimental
+- path: .github/agents/foglight/subagents/confidence-dashboard.agent.md
+  kind: agent
+  maturity: experimental
 - path: .github/agents/github/github-backlog-manager.agent.md
   kind: agent
 - path: .github/agents/hve-core/documentation.agent.md
@@ -267,6 +273,9 @@ items:
   kind: prompt
   maturity: experimental
 - path: .github/prompts/experimental/graph-research.prompt.md
+  kind: prompt
+  maturity: experimental
+- path: .github/prompts/foglight/foglight.prompt.md
   kind: prompt
   maturity: experimental
 - path: .github/prompts/github/github-add-issue.prompt.md
@@ -596,6 +605,12 @@ items:
   kind: skill
 - path: .github/skills/experimental/vscode-playwright
   kind: skill
+- path: .github/skills/foglight/confidence-dashboard
+  kind: skill
+  maturity: experimental
+- path: .github/skills/foglight/foglight-foundation
+  kind: skill
+  maturity: experimental
 - path: .github/skills/github/gh-code-scanning
   kind: skill
   maturity: experimental
